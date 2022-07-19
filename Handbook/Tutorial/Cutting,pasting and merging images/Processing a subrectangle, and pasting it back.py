@@ -3,6 +3,7 @@ box = (100, 100, 400, 400)
 with Image.open("../../../female.jpg") as im:
     im.show()
     region = im.crop(box)
+    region.show()
     region = region.transpose(Image.TRANSPOSE.ROTATE_180)
     im.paste(region, box)
-    im.show()
+    region.show()
