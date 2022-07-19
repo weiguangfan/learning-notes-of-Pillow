@@ -44,6 +44,7 @@ RETURNS:
 """
 from PIL import Image
 with Image.open('../../../female.jpg') as im:
+    im.show()
     print(im.width)
     print(im.height)
     (width, height) = (im.width // 2, im.height // 2)
@@ -51,3 +52,4 @@ with Image.open('../../../female.jpg') as im:
     print(height)
     im_resized = im.resize((width,height))
     print(im_resized)
+    im_resized.show()
