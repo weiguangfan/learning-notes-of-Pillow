@@ -4,8 +4,8 @@ Image.getbands()
 例如，getbands在RGB图像上返回（"R", "G", "B"）。
 
 RETURNS:
-一个包含波段名称的元组。
+    一个包含波段名称的元组。
 
 RETURN TYPE:
-元组
+    元组
 """

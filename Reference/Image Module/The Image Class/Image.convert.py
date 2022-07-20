@@ -45,3 +45,32 @@ RETURNS:
     一个图像对象。
 
 """
+# 当把彩色图像转换为灰度（模式 "L"）时，该库使用ITU-R 601-2 luma变换:
+from PIL import Image
+with Image.open("../../../female.jpg") as im:
+    print(im.filename)
+    print(im.mode)
+    print(im.format)
+    print(im.palette)
+    print(getattr(im, "is_animated", False))
+    print(getattr(im, "n_frames", 1))
+    print(im.size)
+    print(im.width)
+    print(im.height)
+    print(im.info)
+    print(im.getbands())
+    print(im.getcolors())
+    print(im.getdata())
+    # print(list(im.getdata()))
+    print(im.getdata(0))
+    print(im.getdata(1))
+    print(im.getdata(2))
+    # im_getcha = im.getchannel(0)
+    # im_getcha = im.getchannel(1)
+    # im_getcha = im.getchannel(2)
+    # im_getcha.show()
+    # L = R * 299/1000 + G * 587/1000 + B * 114/1000
+    # print(L)
+
+
+
