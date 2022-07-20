@@ -57,3 +57,9 @@ class Example1:
         method = Image.Transform.EXTENT
         data = (0,0,100,100)
         return method,data
+
+with Image.open("../../../female.jpg") as im:
+    im.show()
+    method = Image.EXTENT
+    im_trans = im.transform((128,128),method)
+    im_trans.show()
