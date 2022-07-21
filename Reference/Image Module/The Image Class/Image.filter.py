@@ -17,27 +17,28 @@ with Image.open("../../../female.jpg") as im:
     # im3 = im.filter(ImageFilter.DETAIL)
     im4 = im.filter(ImageFilter.EDGE_ENHANCE)
     im5 = im.filter(ImageFilter.EDGE_ENHANCE_MORE)
-    # im2 = im.filter(ImageFilter.MinFilter(3))
-    # im3 = im.filter(ImageFilter.MinFilter)
-    im1.show()
-    im2.show()
+    im6 = im.filter(ImageFilter.EMBOSS)
+    im7 = im.filter(ImageFilter.FIND_EDGES)
+    im8 = im.filter(ImageFilter.SHARPEN)
+    im9 = im.filter(ImageFilter.SMOOTH)
+    im10 = im.filter(ImageFilter.SMOOTH_MORE)
+    im11 = im.filter(ImageFilter.MinFilter(3))
+    im12 = im.filter(ImageFilter.MinFilter)
+    im13 = im.filter(ImageFilter.MaxFilter)
+    im14 = im.filter(ImageFilter.MedianFilter)
+    im15 = im.filter(ImageFilter.ModeFilter)
+    # im1.show()
+    # im2.show()
     # im3.show()
-    im4.show()
-    im5.show()
-
-
-# EDGE_ENHANCE
-#
-# EDGE_ENHANCE_MORE
-#
-# EMBOSS
-#
-# FIND_EDGES
-#
-# SHARPEN
-#
-# SMOOTH
-#
-# SMOOTH_MORE
-
-
+    # im4.show()
+    # im5.show()
+    # im6.show()
+    # im7.show()
+    # im8.show()
+    # im9.show()
+    # im10.show()
+    # im11.show()
+    im12.show()
+    im13.show()
+    im14.show()
+    im15.show()
