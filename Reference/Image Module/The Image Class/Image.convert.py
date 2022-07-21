@@ -86,6 +86,8 @@ with Image.open("../../../female.jpg") as im:
     im.putpixel((100,100),(0,0,0))
     print(im.getpixel((100, 100)))
     print(im.getextrema())
+    im_getchannel = im.getchannel
+    print(im_getchannel)
     im_getcha = im.getchannel(0)
     print(im_getcha)
     # im_getcha = im.getchannel(1)

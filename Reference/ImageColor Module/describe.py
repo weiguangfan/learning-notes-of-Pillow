@@ -32,7 +32,7 @@ ImageColor模块支持以下字符串格式:
     色相-饱和度-值（HSV）函数，
         以hsv(hue, saturation%, value%)给出，
         其中色相和饱和度与HSL相同，
-        值在0%和100%之间（黑=0%，正常=100%）。
+        value值在0%和100%之间（黑=0%，正常=100%）。
         例如，hsv(0,100%,100%)是纯红色。
         这种格式也被称为色相-饱和度-亮度（HSB），
         可以给出hsb(hue, saturation%, brightness%)，
