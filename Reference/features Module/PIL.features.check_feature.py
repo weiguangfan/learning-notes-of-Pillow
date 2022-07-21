@@ -10,6 +10,4 @@ RETURNS:
 
 RAISES:
     ValueError - 如果该特征在Pillow的这个版本中没有定义。
-
-
 """

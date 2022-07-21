@@ -5,7 +5,8 @@ Image.info: dict
 详情见各种文件处理程序的文档。
 
 大多数方法在返回新图像时忽略了 dictionary；
-由于键没有被标准化，方法不可能知道操作是否影响 dictionary。
+由于键没有被标准化，
+方法不可能知道操作是否影响 dictionary。
 如果你以后需要这些信息，
 请保留对从 open 方法返回的 info dictionary 的引用。
 
